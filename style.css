@@ -16,16 +16,16 @@ body{
 ;
 }
 
-.idk {
+.grid {
 	display: grid;
-	grid-template-column: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 }
 
-.1 {
+.img1 {
 	grid-columns: span 1;
 }
 
-.2 {
+.txt1 {
 	grid-columns: span 1;
 }
 
@@ -68,15 +68,6 @@ p {
 	font-size:30px;
 }
 
-.pic{
-	margin-left:100px;
-	margin-top: 100px;
-	
-}
-
-.word {
-	text-align:center;
-}
 
 .li {
 	color: white;
@@ -93,4 +84,7 @@ p {
 	width:500px;
 	border:5px solid grey;
 }
+.class{
+	height: 500px;
+	width: 650px;
 	
